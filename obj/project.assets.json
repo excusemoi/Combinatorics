@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Combinatorics/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Combinatorics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Combinatorics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Combinatorics/2.0.0": {
+      "sha512": "E00cVYTp5FTCMN9DnY64zoM3ihboRW2of8zX18OqpCtUGdyqtZk3WC7wmSp5qc15UoBa+st8VoDsm+O22tkTaQ==",
+      "type": "package",
+      "path": "combinatorics/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "combinatorics.2.0.0.nupkg.sha512",
+        "combinatorics.nuspec",
+        "icon.png",
+        "lib/net461/Combinatorics.dll",
+        "lib/net461/Combinatorics.xml",
+        "lib/netstandard1.1/Combinatorics.dll",
+        "lib/netstandard1.1/Combinatorics.xml",
+        "lib/netstandard2.0/Combinatorics.dll",
+        "lib/netstandard2.0/Combinatorics.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Combinatorics >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/pepachka/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/pepachka/Downloads/FA4semUnzhakov-main/c# Практика№1/ConsoleApp1/ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "/home/pepachka/Downloads/FA4semUnzhakov-main/c# Практика№1/ConsoleApp1/ConsoleApp1.csproj",
+      "packagesPath": "/home/pepachka/.nuget/packages/",
+      "outputPath": "/home/pepachka/Downloads/FA4semUnzhakov-main/c# Практика№1/ConsoleApp1/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/pepachka/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Combinatorics": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0MpZKurej7iaGGvn9mBomKV6RiHPJriX7uYdAfvDP/QNgdC2okjU7WueZLvYmMqhbSKhtcGXKtLd/eCd9WqGzg==",
+  "success": true,
+  "projectFilePath": "/home/pepachka/Downloads/FA4semUnzhakov-main/c# Практика№1/ConsoleApp1/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/home/pepachka/.nuget/packages/combinatorics/2.0.0/combinatorics.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
